@@ -1,9 +1,11 @@
 class score():
 
     scores = { }
-
-    def add_score(self, user, num_correct):
+    
+    @staticmethod
+    def add_score(user, num_correct):
         score.scores[user] = num_correct
 
-    def get_scores(self):
+    @staticmethod
+    def get_scores():
         return score.scores

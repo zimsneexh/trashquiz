@@ -58,7 +58,7 @@ class quiz():
         quiz.questions.append(qs)
 
     def validate_answer(aself, anr, answ):
-        if(quiz.questions[anr].answers[0] == answ):
+        if(quiz.questions[anr].answers[0] == answ.replace("+", " ")):
             return True
         else:
             return False
