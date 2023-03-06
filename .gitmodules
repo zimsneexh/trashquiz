@@ -1,0 +1,3 @@
+[submodule "branchweb"]
+	path = branchweb
+	url = https://github.com/AcaciaLinux/branchweb
