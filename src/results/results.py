@@ -1,7 +1,7 @@
 from log import blog
 
 def read_quiz_file():
-    qf = open("quiz.lol", "r")
+    qf = open("res/quiz.lol", "r")
 
     qfa = qf.read().split("\n")
 
